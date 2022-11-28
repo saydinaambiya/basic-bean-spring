@@ -2,10 +2,12 @@ package com.enigma.firstspring.service;
 
 import com.enigma.firstspring.entity.Course;
 import com.enigma.firstspring.repository.ICourseRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class CourseService implements ICourseService{
     private ICourseRepository courseRepository;
 
